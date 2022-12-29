@@ -88,7 +88,7 @@ article img{
 
 article h1{
     font-family:'Caramel', cursive ;
-    font-size: 4.6em;
+    font-size: 4.3em;
     color: var(--cor2);
     margin-top: 10px;
     margin-bottom: 35px;
@@ -100,12 +100,24 @@ article h1{
 }
 
 article p{
-    color: var(--cor4);
-    padding: 10px 0px 40px;
+    color: var(--cor1);
+    padding: 15px 0px 15px 0px;
     text-align: center;
-    padding-top: 10px;
     font-weight: bold;
     text-indent: 6px;
+    background-color: var(--cor4);
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.331);
+}
+
+#p1{
+    color: var(--cor1);
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-weight: bold;
+    text-indent: 6px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.142);
 }
 
 article{
@@ -116,7 +128,7 @@ article{
 
 article h2{
     font-family: 'Caramel', cursive;
-    font-size: 3.5em;
+    font-size: 3.2em;
     color: var(--cor2);
     margin-top: 10px;
     margin-bottom: 35px;
@@ -127,7 +139,7 @@ article h2{
 }
 
 article a{
-    color: var(--cor2);
+    color: var(--cor5);
     font-weight: bold;
     text-decoration: none;
 }
@@ -141,6 +153,21 @@ article a:hover{
 .infos{
     text-align: justify;
     padding: 5px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.142);
+}
+
+.bordacima{
+    text-align: justify;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.142);
+}
+
+.bordabaixo{
+    text-align: justify;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.142);
 }
 
 aside{
@@ -169,6 +196,7 @@ aside p{
 aside ul{
     padding: 15px 30px 30px 30px;
     columns: 2;
+    list-style-type: none;
 }
 
 aside a{
