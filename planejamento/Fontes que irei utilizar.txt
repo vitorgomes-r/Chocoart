@@ -1,0 +1,5 @@
+Caramel - https://fonts.google.com/specimen/Just+Another+Hand?preview.text=Chocolate%20%26%20Arte%20&preview.text_type=custom&query=hand
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+De resto, tudo fonte padrão apenas
